@@ -59,3 +59,36 @@ public class Person {
 	}
 
 }
+
+
+
+public class Vehical {
+	int vid;
+	String vname ;
+	
+	public Vehical(int vid, String vname) {
+		super();
+		this.vid = vid;
+		this.vname = vname;
+	}
+	
+	public int getVid() {
+		return vid;
+	}
+	public void setVid(int vid) {
+		this.vid = vid;
+	}
+	public String getVname() {
+		return vname;
+	}
+	public void setVname(String vname) {
+		this.vname = vname;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Person p = new Person();
+	}
+
+}
+
